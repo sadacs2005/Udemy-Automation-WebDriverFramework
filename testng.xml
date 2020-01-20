@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="10">
+	<test thread-count="1" name="CollectionTest" enabled="false">
+		<classes>
+			<class name="collections.Practice4_Test1" />
+			<class name="collections.Practice4_Test2" />
+		</classes>
+	</test>
+	<test thread-count="1" name="FrameWorktest">
+	<parameter name="Juice" value="Pineapple" />
+		<classes>
+			<!-- <class name="udemyPractice.Practice18_LoginToQAAcademy" />
+			<class name="udemyPractice.Practice16_SortingColumns" />  -->
+			<class name="udemyPractice.Practice19_ReadingProperties" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="10" name="FrameWorktest(failed)" parallel="methods">
+    <classes>
+      <class name="udemyPractice.Practice18_LoginToQAAcademy">
+        <methods>
+          <include name="login"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- udemyPractice.Practice18_LoginToQAAcademy -->
+    </classes>
+  </test> <!-- FrameWorktest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
